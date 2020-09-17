@@ -22,6 +22,6 @@ number3 = int(input('please enter a third value'))
 vsum = number1 + number2 + number3
 avg = vsum / 3
 
-print('The sum is', vsum)
+print(f'The sum is: {vsum:,}')
 print(f'The average is: {avg:,.2f}')
 
