@@ -1,6 +1,10 @@
 import random
 
-rand = (random.randint(1, 9), random.randint(1, 9))
+def rand_tuple():
+    rand_tup = (random.randint(1, 9), random.randint(1, 9))
+    return rand_tup
+
+rand = rand_tuple()
 incorrect = True
 while incorrect:
     inp = int(input(f'How much is {rand[0]} times {rand[1]}?'))
